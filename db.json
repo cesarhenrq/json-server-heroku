@@ -1,16 +1,95 @@
 {
-  "posts":[
+  "tasks": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "taskNumber": "1",
+      "description": "Teste",
+      "deadline": "00/00/0000",
+      "status": "Concluído",
+      "userID": 3,
+      "id": 2
+    },
+    {
+      "taskNumber": "2",
+      "description": "Teste 2",
+      "deadline": "00/00/0000",
+      "status": "Em andamento",
+      "userID": 3,
+      "id": 3
+    },
+    {
+      "taskNumber": "3",
+      "description": "Teste 3",
+      "deadline": "00/00/0000",
+      "status": "Parado",
+      "userID": 3,
+      "id": 4
+    },
+    {
+      "taskNumber": "4",
+      "description": "Teste 4",
+      "deadline": "00/00/0000",
+      "status": "Concluído",
+      "userID": 3,
+      "id": 7
+    },
+    {
+      "taskNumber": 1,
+      "description": "Teste",
+      "deadline": "2023-01-07",
+      "status": "Concluído",
+      "userID": 1,
+      "id": 8
+    },
+    {
+      "taskNumber": 2,
+      "description": "Teste",
+      "deadline": "2023-01-06",
+      "status": "Concluído",
+      "userID": 1,
+      "id": 9
+    },
+    {
+      "taskNumber": 3,
+      "description": "Teste",
+      "deadline": "2023-01-07",
+      "status": "Concluído",
+      "userID": 1,
+      "id": 10
     }
   ],
-  "comments" : [
+  "users": [
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "name": "César Henrique",
+      "nickname": "cesarhenrq",
+      "password": "123456",
+      "id": 1
+    },
+    {
+      "name": "Teste",
+      "nickname": "Teste",
+      "password": "123456",
+      "id": 2
+    },
+    {
+      "name": "teste",
+      "nickname": "teste",
+      "password": "123456",
+      "id": 3
+    },
+    {
+      "name": "Alberto Timóteo",
+      "nickname": "alberto",
+      "password": "123456",
+      "id": 4
+    }
+  ],
+  "logedUser": [
+    {
+      "name": "César Henrique",
+      "nickname": "cesarhenrq",
+      "password": "123456",
+      "userID": 1,
+      "id": 1
     }
   ]
 }
