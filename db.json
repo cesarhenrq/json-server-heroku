@@ -83,13 +83,5 @@
       "id": 4
     }
   ],
-  "logedUser": [
-    {
-      "name": "César Henrique",
-      "nickname": "cesarhenrq",
-      "password": "123456",
-      "userID": 1,
-      "id": 1
-    }
-  ]
+  "logedUser": []
 }
